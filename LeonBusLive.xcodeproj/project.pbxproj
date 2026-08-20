@@ -1,0 +1,707 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0874E909594F23BEAAB072B5 /* SettingsStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 465D995E33D914852E7AA6E9 /* SettingsStore.swift */; };
+		0EC2412046720E376AD478B0 /* APITransitDataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4FEF80E7F5C00EAB31131BD /* APITransitDataProvider.swift */; };
+		107C413306D027DA9062E3A8 /* AppModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 300BBBCF9C53D50BBF9AD881 /* AppModel.swift */; };
+		1DCF318C549AF05C55BE745E /* RootTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E11E177FFB11A9274ECEA23 /* RootTabView.swift */; };
+		1FFFC9BAC0A9B11DE4743E9B /* LineDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBBF8BAD8B6A606DEF5794F7 /* LineDetailView.swift */; };
+		2A7B1D2229392AF3837A0F40 /* Formatters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BE90CD6EE2451FC0F7691D6 /* Formatters.swift */; };
+		2C5CD71745ACE18363B4DADC /* BusArrival.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A0A46658D6B91C95AA12683 /* BusArrival.swift */; };
+		2D4D4E7E9C3596E656AE4871 /* EmptyStateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A8127492260F44CC312CDA8 /* EmptyStateView.swift */; };
+		2DBEBF0AF1D134775EA2B02D /* FavoritesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFEEBA940BA3C20E89EB1DC5 /* FavoritesView.swift */; };
+		2F66BE1A4ED35DB0B5E045F1 /* Coordinates.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB3EED04690FB24EBDB09DB5 /* Coordinates.swift */; };
+		30C00F907CD7E108E1607462 /* ArrivalStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = C82B79144F15538D92387528 /* ArrivalStatus.swift */; };
+		3911D9C5CA0C0968C5A12CBE /* LinesListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5BB106D911BE8194FE02BAE /* LinesListView.swift */; };
+		3F35C6C2A494369D93C2A944 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66E5F5679F989D13C87AA945 /* SettingsView.swift */; };
+		416A28A28ABE14C43A961162 /* TransitSupportingTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68A2339664E6F24AA7AF8EED /* TransitSupportingTypes.swift */; };
+		4651850FC92699B62D5A5713 /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71EBF39D56021B6B2A689CCB /* SearchView.swift */; };
+		48F0B51DC31D1BBBEBD458EA /* MockTransitDataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7C1A3DFAFF37D80402E1257 /* MockTransitDataProvider.swift */; };
+		4A39F3F3E710CEA01DE3BC07 /* NearbyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 522C65A0F88AF9DD20678869 /* NearbyView.swift */; };
+		517E62B77D18D99CBD21DF29 /* BusVehicle.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1A9D0DAF19718D5A2AEF89B /* BusVehicle.swift */; };
+		5B85E6C8890F5DCA8E3B1747 /* TransitDataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0157B9EDE00F43998E5DEF3D /* TransitDataProvider.swift */; };
+		6F3637F776B2EFFCCD25D5A9 /* StopMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 344CF177843B61B933DF48DE /* StopMapView.swift */; };
+		78D2A1CDE3A8F8A1AA20DDCB /* RealtimeEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B4A457385D1F344FCD60115 /* RealtimeEngine.swift */; };
+		7956A2316DAAD308DC6E2D8C /* LeonDemoCatalog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F6D1D29CF79D8B1F126A672 /* LeonDemoCatalog.swift */; };
+		823428D22483E1E5A9477C48 /* GlassSurface.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3392626347296BAC41CEA2D8 /* GlassSurface.swift */; };
+		861D2691E6F8DE64D841C011 /* StopCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB77F658CD989B73A5DF046 /* StopCard.swift */; };
+		8A0FCEF7AC7265210449F71A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C43573E97CCD2098B05BEE2D /* Assets.xcassets */; };
+		8C80D2F31EDCC525609A2DF0 /* LeonBusLiveTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5555AAB54E8AA51490740E7E /* LeonBusLiveTests.swift */; };
+		9041189CB76E580E9505FE52 /* DataProviderKind.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C9833696941CC89CC7E6EAF /* DataProviderKind.swift */; };
+		91C055E7D562C7BD1F877A5A /* LineBadge.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD4CECA59AB071CEAEE6C2F4 /* LineBadge.swift */; };
+		99B4F511F05970F8D8C9277F /* FavoriteButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E83D468859463C1CF91CCD27 /* FavoriteButton.swift */; };
+		9F63929D67255EAB18A77CEF /* RealtimeStatusBadge.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCFD93397B45E65DAB137665 /* RealtimeStatusBadge.swift */; };
+		A505F5C38CFEBA3F523B667E /* BusLine.swift in Sources */ = {isa = PBXBuildFile; fileRef = C27BC5DE486684C1C8455EB9 /* BusLine.swift */; };
+		A7F6A32080F5892976B989E3 /* APIModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37F35770892FC43534C3F429 /* APIModels.swift */; };
+		B010C06E9F379505186D4542 /* BusMarker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CAF0FC66306E88E753637B5 /* BusMarker.swift */; };
+		B28CB0D664649018971D350B /* ArrivalRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33690B72788FE7802844800B /* ArrivalRow.swift */; };
+		B5EC6E59FBF74F351EB080E0 /* BusStop.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0B426BC07B4AC14C2930799 /* BusStop.swift */; };
+		BA15562A71865A4E5833F81B /* StopDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B892E1D84C80B4E968D86A5 /* StopDetailView.swift */; };
+		C143834C45DE0F3B748E15D2 /* FavoritesStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD8A5E271F82FFE719BE1866 /* FavoritesStore.swift */; };
+		C8B2F27DC41BDE72545690DD /* LocationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDFBDA0196C768CB93E3383A /* LocationService.swift */; };
+		CDE353F1473758EC6F46D0B3 /* LeonBusLiveApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD867423B858CE1DBCB2479E /* LeonBusLiveApp.swift */; };
+		D8C9B30DD705030549829BD4 /* FavoriteItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18843EC5CC387191D9014EAF /* FavoriteItem.swift */; };
+		F97D71FF2F6138E8A04BF930 /* StopsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E5A76EFF667E18C5D280F14 /* StopsListView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1C164E7E206A6CEDB8AA999B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 301F8AB0CE0A834E025067C6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 82FACA53DCCFAED7FF611881;
+			remoteInfo = LeonBusLive;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0157B9EDE00F43998E5DEF3D /* TransitDataProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransitDataProvider.swift; sourceTree = "<group>"; };
+		0A8127492260F44CC312CDA8 /* EmptyStateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyStateView.swift; sourceTree = "<group>"; };
+		0B4A457385D1F344FCD60115 /* RealtimeEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealtimeEngine.swift; sourceTree = "<group>"; };
+		0CAF0FC66306E88E753637B5 /* BusMarker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusMarker.swift; sourceTree = "<group>"; };
+		18843EC5CC387191D9014EAF /* FavoriteItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteItem.swift; sourceTree = "<group>"; };
+		1BE90CD6EE2451FC0F7691D6 /* Formatters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Formatters.swift; sourceTree = "<group>"; };
+		2E11E177FFB11A9274ECEA23 /* RootTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootTabView.swift; sourceTree = "<group>"; };
+		2F101C9657D33237A3D87CCC /* LeonBusLive.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = LeonBusLive.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		300BBBCF9C53D50BBF9AD881 /* AppModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppModel.swift; sourceTree = "<group>"; };
+		33690B72788FE7802844800B /* ArrivalRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArrivalRow.swift; sourceTree = "<group>"; };
+		3392626347296BAC41CEA2D8 /* GlassSurface.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlassSurface.swift; sourceTree = "<group>"; };
+		344CF177843B61B933DF48DE /* StopMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StopMapView.swift; sourceTree = "<group>"; };
+		37F35770892FC43534C3F429 /* APIModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIModels.swift; sourceTree = "<group>"; };
+		3A0A46658D6B91C95AA12683 /* BusArrival.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusArrival.swift; sourceTree = "<group>"; };
+		465D995E33D914852E7AA6E9 /* SettingsStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsStore.swift; sourceTree = "<group>"; };
+		4E5A76EFF667E18C5D280F14 /* StopsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StopsListView.swift; sourceTree = "<group>"; };
+		522C65A0F88AF9DD20678869 /* NearbyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NearbyView.swift; sourceTree = "<group>"; };
+		5555AAB54E8AA51490740E7E /* LeonBusLiveTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeonBusLiveTests.swift; sourceTree = "<group>"; };
+		66E5F5679F989D13C87AA945 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		68A2339664E6F24AA7AF8EED /* TransitSupportingTypes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransitSupportingTypes.swift; sourceTree = "<group>"; };
+		71E7F230D203A0F172421027 /* LeonBusLiveTests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = LeonBusLiveTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		71EBF39D56021B6B2A689CCB /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
+		7F6D1D29CF79D8B1F126A672 /* LeonDemoCatalog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeonDemoCatalog.swift; sourceTree = "<group>"; };
+		8C9833696941CC89CC7E6EAF /* DataProviderKind.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataProviderKind.swift; sourceTree = "<group>"; };
+		9B892E1D84C80B4E968D86A5 /* StopDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StopDetailView.swift; sourceTree = "<group>"; };
+		A0B426BC07B4AC14C2930799 /* BusStop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusStop.swift; sourceTree = "<group>"; };
+		BCFD93397B45E65DAB137665 /* RealtimeStatusBadge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealtimeStatusBadge.swift; sourceTree = "<group>"; };
+		C27BC5DE486684C1C8455EB9 /* BusLine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusLine.swift; sourceTree = "<group>"; };
+		C43573E97CCD2098B05BEE2D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C4FEF80E7F5C00EAB31131BD /* APITransitDataProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APITransitDataProvider.swift; sourceTree = "<group>"; };
+		C5BB106D911BE8194FE02BAE /* LinesListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinesListView.swift; sourceTree = "<group>"; };
+		C7C1A3DFAFF37D80402E1257 /* MockTransitDataProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockTransitDataProvider.swift; sourceTree = "<group>"; };
+		C82B79144F15538D92387528 /* ArrivalStatus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArrivalStatus.swift; sourceTree = "<group>"; };
+		CB3EED04690FB24EBDB09DB5 /* Coordinates.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinates.swift; sourceTree = "<group>"; };
+		CD4CECA59AB071CEAEE6C2F4 /* LineBadge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineBadge.swift; sourceTree = "<group>"; };
+		CEB77F658CD989B73A5DF046 /* StopCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StopCard.swift; sourceTree = "<group>"; };
+		DD79ACDF817273B094BC04DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		DD867423B858CE1DBCB2479E /* LeonBusLiveApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeonBusLiveApp.swift; sourceTree = "<group>"; };
+		DDFBDA0196C768CB93E3383A /* LocationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationService.swift; sourceTree = "<group>"; };
+		DFEEBA940BA3C20E89EB1DC5 /* FavoritesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesView.swift; sourceTree = "<group>"; };
+		E83D468859463C1CF91CCD27 /* FavoriteButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteButton.swift; sourceTree = "<group>"; };
+		F1A9D0DAF19718D5A2AEF89B /* BusVehicle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusVehicle.swift; sourceTree = "<group>"; };
+		FBBF8BAD8B6A606DEF5794F7 /* LineDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineDetailView.swift; sourceTree = "<group>"; };
+		FD8A5E271F82FFE719BE1866 /* FavoritesStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesStore.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		0D9E1119B70B7388E88E89E2 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				37F35770892FC43534C3F429 /* APIModels.swift */,
+				C4FEF80E7F5C00EAB31131BD /* APITransitDataProvider.swift */,
+				8C9833696941CC89CC7E6EAF /* DataProviderKind.swift */,
+				FD8A5E271F82FFE719BE1866 /* FavoritesStore.swift */,
+				7F6D1D29CF79D8B1F126A672 /* LeonDemoCatalog.swift */,
+				DDFBDA0196C768CB93E3383A /* LocationService.swift */,
+				C7C1A3DFAFF37D80402E1257 /* MockTransitDataProvider.swift */,
+				0B4A457385D1F344FCD60115 /* RealtimeEngine.swift */,
+				465D995E33D914852E7AA6E9 /* SettingsStore.swift */,
+				0157B9EDE00F43998E5DEF3D /* TransitDataProvider.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		13432800064C201B1E301081 = {
+			isa = PBXGroup;
+			children = (
+				D3CFE43DDC7D639B45FEFCA4 /* LeonBusLive */,
+				F52AE6F9D30F0CCBDB7E98CC /* LeonBusLiveTests */,
+				F36AFD34BD39E92390DD4477 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		17281CCD502DF1FFE3F03B6D /* App */ = {
+			isa = PBXGroup;
+			children = (
+				300BBBCF9C53D50BBF9AD881 /* AppModel.swift */,
+				DD867423B858CE1DBCB2479E /* LeonBusLiveApp.swift */,
+				2E11E177FFB11A9274ECEA23 /* RootTabView.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		1F3CC381D6085D7424FE72C9 /* Lines */ = {
+			isa = PBXGroup;
+			children = (
+				C5BB106D911BE8194FE02BAE /* LinesListView.swift */,
+			);
+			path = Lines;
+			sourceTree = "<group>";
+		};
+		289BAEE37251E66D964FE0D7 /* StopDetail */ = {
+			isa = PBXGroup;
+			children = (
+				9B892E1D84C80B4E968D86A5 /* StopDetailView.swift */,
+				344CF177843B61B933DF48DE /* StopMapView.swift */,
+			);
+			path = StopDetail;
+			sourceTree = "<group>";
+		};
+		2FCC40FCA95113A735018B3D /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				66E5F5679F989D13C87AA945 /* SettingsView.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		3E34550DA64B829856B4DCD9 /* LineDetail */ = {
+			isa = PBXGroup;
+			children = (
+				FBBF8BAD8B6A606DEF5794F7 /* LineDetailView.swift */,
+			);
+			path = LineDetail;
+			sourceTree = "<group>";
+		};
+		41B0615F81C5ADE1F7E9BDDE /* Search */ = {
+			isa = PBXGroup;
+			children = (
+				71EBF39D56021B6B2A689CCB /* SearchView.swift */,
+			);
+			path = Search;
+			sourceTree = "<group>";
+		};
+		590135095D145BCBD1CB883F /* Stops */ = {
+			isa = PBXGroup;
+			children = (
+				4E5A76EFF667E18C5D280F14 /* StopsListView.swift */,
+			);
+			path = Stops;
+			sourceTree = "<group>";
+		};
+		5C6EB9A05E8D7B74FF4EBFD2 /* Favorites */ = {
+			isa = PBXGroup;
+			children = (
+				DFEEBA940BA3C20E89EB1DC5 /* FavoritesView.swift */,
+			);
+			path = Favorites;
+			sourceTree = "<group>";
+		};
+		79B8A4F285DD1C39BE01716D /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				33690B72788FE7802844800B /* ArrivalRow.swift */,
+				0CAF0FC66306E88E753637B5 /* BusMarker.swift */,
+				0A8127492260F44CC312CDA8 /* EmptyStateView.swift */,
+				E83D468859463C1CF91CCD27 /* FavoriteButton.swift */,
+				CD4CECA59AB071CEAEE6C2F4 /* LineBadge.swift */,
+				BCFD93397B45E65DAB137665 /* RealtimeStatusBadge.swift */,
+				CEB77F658CD989B73A5DF046 /* StopCard.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		8BE6D33A1A232E4FC9C433BA /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				5C6EB9A05E8D7B74FF4EBFD2 /* Favorites */,
+				3E34550DA64B829856B4DCD9 /* LineDetail */,
+				1F3CC381D6085D7424FE72C9 /* Lines */,
+				922F738A80713AB731A6ED40 /* Nearby */,
+				41B0615F81C5ADE1F7E9BDDE /* Search */,
+				2FCC40FCA95113A735018B3D /* Settings */,
+				289BAEE37251E66D964FE0D7 /* StopDetail */,
+				590135095D145BCBD1CB883F /* Stops */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		922F738A80713AB731A6ED40 /* Nearby */ = {
+			isa = PBXGroup;
+			children = (
+				522C65A0F88AF9DD20678869 /* NearbyView.swift */,
+			);
+			path = Nearby;
+			sourceTree = "<group>";
+		};
+		9250E08DEF9A4DE42F343A40 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C43573E97CCD2098B05BEE2D /* Assets.xcassets */,
+				DD79ACDF817273B094BC04DA /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		D3CFE43DDC7D639B45FEFCA4 /* LeonBusLive */ = {
+			isa = PBXGroup;
+			children = (
+				17281CCD502DF1FFE3F03B6D /* App */,
+				79B8A4F285DD1C39BE01716D /* Components */,
+				8BE6D33A1A232E4FC9C433BA /* Features */,
+				F82C76FA7AB8E2D2E2ED3135 /* Models */,
+				9250E08DEF9A4DE42F343A40 /* Resources */,
+				0D9E1119B70B7388E88E89E2 /* Services */,
+				DD3F3A0B50D72C9DB83AB54F /* Utilities */,
+			);
+			path = LeonBusLive;
+			sourceTree = "<group>";
+		};
+		DD3F3A0B50D72C9DB83AB54F /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				1BE90CD6EE2451FC0F7691D6 /* Formatters.swift */,
+				3392626347296BAC41CEA2D8 /* GlassSurface.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		F36AFD34BD39E92390DD4477 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2F101C9657D33237A3D87CCC /* LeonBusLive.app */,
+				71E7F230D203A0F172421027 /* LeonBusLiveTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F52AE6F9D30F0CCBDB7E98CC /* LeonBusLiveTests */ = {
+			isa = PBXGroup;
+			children = (
+				5555AAB54E8AA51490740E7E /* LeonBusLiveTests.swift */,
+			);
+			path = LeonBusLiveTests;
+			sourceTree = "<group>";
+		};
+		F82C76FA7AB8E2D2E2ED3135 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				C82B79144F15538D92387528 /* ArrivalStatus.swift */,
+				3A0A46658D6B91C95AA12683 /* BusArrival.swift */,
+				C27BC5DE486684C1C8455EB9 /* BusLine.swift */,
+				A0B426BC07B4AC14C2930799 /* BusStop.swift */,
+				F1A9D0DAF19718D5A2AEF89B /* BusVehicle.swift */,
+				CB3EED04690FB24EBDB09DB5 /* Coordinates.swift */,
+				18843EC5CC387191D9014EAF /* FavoriteItem.swift */,
+				68A2339664E6F24AA7AF8EED /* TransitSupportingTypes.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		82FACA53DCCFAED7FF611881 /* LeonBusLive */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1EDEC587C093E8F9250DEE3E /* Build configuration list for PBXNativeTarget "LeonBusLive" */;
+			buildPhases = (
+				2148A1768E0FF2519FD27A43 /* Sources */,
+				9785CF93F5E512EBA345CD5E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LeonBusLive;
+			packageProductDependencies = (
+			);
+			productName = LeonBusLive;
+			productReference = 2F101C9657D33237A3D87CCC /* LeonBusLive.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9CCDB190FF45047AC5480F26 /* LeonBusLiveTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6AB66851CE40A9106CFE5E6E /* Build configuration list for PBXNativeTarget "LeonBusLiveTests" */;
+			buildPhases = (
+				49DF5CACFC00A435AE30011E /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				59DAE3554AE4E13C3CD1FA62 /* PBXTargetDependency */,
+			);
+			name = LeonBusLiveTests;
+			packageProductDependencies = (
+			);
+			productName = LeonBusLiveTests;
+			productReference = 71E7F230D203A0F172421027 /* LeonBusLiveTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		301F8AB0CE0A834E025067C6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 2600;
+				TargetAttributes = {
+					82FACA53DCCFAED7FF611881 = {
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 6AF574C451AA9E8F8AE46372 /* Build configuration list for PBXProject "LeonBusLive" */;
+			developmentRegion = es;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				es,
+			);
+			mainGroup = 13432800064C201B1E301081;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = F36AFD34BD39E92390DD4477 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				82FACA53DCCFAED7FF611881 /* LeonBusLive */,
+				9CCDB190FF45047AC5480F26 /* LeonBusLiveTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9785CF93F5E512EBA345CD5E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A0FCEF7AC7265210449F71A /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2148A1768E0FF2519FD27A43 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7F6A32080F5892976B989E3 /* APIModels.swift in Sources */,
+				0EC2412046720E376AD478B0 /* APITransitDataProvider.swift in Sources */,
+				107C413306D027DA9062E3A8 /* AppModel.swift in Sources */,
+				B28CB0D664649018971D350B /* ArrivalRow.swift in Sources */,
+				30C00F907CD7E108E1607462 /* ArrivalStatus.swift in Sources */,
+				2C5CD71745ACE18363B4DADC /* BusArrival.swift in Sources */,
+				A505F5C38CFEBA3F523B667E /* BusLine.swift in Sources */,
+				B010C06E9F379505186D4542 /* BusMarker.swift in Sources */,
+				B5EC6E59FBF74F351EB080E0 /* BusStop.swift in Sources */,
+				517E62B77D18D99CBD21DF29 /* BusVehicle.swift in Sources */,
+				2F66BE1A4ED35DB0B5E045F1 /* Coordinates.swift in Sources */,
+				9041189CB76E580E9505FE52 /* DataProviderKind.swift in Sources */,
+				2D4D4E7E9C3596E656AE4871 /* EmptyStateView.swift in Sources */,
+				99B4F511F05970F8D8C9277F /* FavoriteButton.swift in Sources */,
+				D8C9B30DD705030549829BD4 /* FavoriteItem.swift in Sources */,
+				C143834C45DE0F3B748E15D2 /* FavoritesStore.swift in Sources */,
+				2DBEBF0AF1D134775EA2B02D /* FavoritesView.swift in Sources */,
+				2A7B1D2229392AF3837A0F40 /* Formatters.swift in Sources */,
+				823428D22483E1E5A9477C48 /* GlassSurface.swift in Sources */,
+				CDE353F1473758EC6F46D0B3 /* LeonBusLiveApp.swift in Sources */,
+				7956A2316DAAD308DC6E2D8C /* LeonDemoCatalog.swift in Sources */,
+				91C055E7D562C7BD1F877A5A /* LineBadge.swift in Sources */,
+				1FFFC9BAC0A9B11DE4743E9B /* LineDetailView.swift in Sources */,
+				3911D9C5CA0C0968C5A12CBE /* LinesListView.swift in Sources */,
+				C8B2F27DC41BDE72545690DD /* LocationService.swift in Sources */,
+				48F0B51DC31D1BBBEBD458EA /* MockTransitDataProvider.swift in Sources */,
+				4A39F3F3E710CEA01DE3BC07 /* NearbyView.swift in Sources */,
+				78D2A1CDE3A8F8A1AA20DDCB /* RealtimeEngine.swift in Sources */,
+				9F63929D67255EAB18A77CEF /* RealtimeStatusBadge.swift in Sources */,
+				1DCF318C549AF05C55BE745E /* RootTabView.swift in Sources */,
+				4651850FC92699B62D5A5713 /* SearchView.swift in Sources */,
+				0874E909594F23BEAAB072B5 /* SettingsStore.swift in Sources */,
+				3F35C6C2A494369D93C2A944 /* SettingsView.swift in Sources */,
+				861D2691E6F8DE64D841C011 /* StopCard.swift in Sources */,
+				BA15562A71865A4E5833F81B /* StopDetailView.swift in Sources */,
+				6F3637F776B2EFFCCD25D5A9 /* StopMapView.swift in Sources */,
+				F97D71FF2F6138E8A04BF930 /* StopsListView.swift in Sources */,
+				5B85E6C8890F5DCA8E3B1747 /* TransitDataProvider.swift in Sources */,
+				416A28A28ABE14C43A961162 /* TransitSupportingTypes.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49DF5CACFC00A435AE30011E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C80D2F31EDCC525609A2DF0 /* LeonBusLiveTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		59DAE3554AE4E13C3CD1FA62 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 82FACA53DCCFAED7FF611881 /* LeonBusLive */;
+			targetProxy = 1C164E7E206A6CEDB8AA999B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0F0170118034A6FC30E6E6B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				MARKETING_VERSION = 1.0.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_STRICT_CONCURRENCY = complete;
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		1D239B1176087B72098B0709 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				MARKETING_VERSION = 1.0.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_STRICT_CONCURRENCY = complete;
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		236034424066798A7B8606E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LeonBusLive/Resources/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "León Bus Live";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.navigation";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "León Bus Live puede actualizar paradas cercanas en segundo plano solo si lo permites. Los datos de demostración no son oficiales.";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "León Bus Live usa tu ubicación para mostrar paradas cercanas y estimar distancias a pie. Los datos de demostración no son oficiales.";
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = es.leonbus.live;
+				PRODUCT_NAME = LeonBusLive;
+				SDKROOT = iphoneos;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		6F0B38A3243D3C21BBE1A2A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = es.leonbus.live.tests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LeonBusLive.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/LeonBusLive";
+			};
+			name = Debug;
+		};
+		A3E13D1D76C89858D35560F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LeonBusLive/Resources/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "León Bus Live";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.navigation";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "León Bus Live puede actualizar paradas cercanas en segundo plano solo si lo permites. Los datos de demostración no son oficiales.";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "León Bus Live usa tu ubicación para mostrar paradas cercanas y estimar distancias a pie. Los datos de demostración no son oficiales.";
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = es.leonbus.live;
+				PRODUCT_NAME = LeonBusLive;
+				SDKROOT = iphoneos;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F626F802F6A9E49A873EEA0B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = es.leonbus.live.tests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LeonBusLive.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/LeonBusLive";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1EDEC587C093E8F9250DEE3E /* Build configuration list for PBXNativeTarget "LeonBusLive" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3E13D1D76C89858D35560F0 /* Debug */,
+				236034424066798A7B8606E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		6AB66851CE40A9106CFE5E6E /* Build configuration list for PBXNativeTarget "LeonBusLiveTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6F0B38A3243D3C21BBE1A2A1 /* Debug */,
+				F626F802F6A9E49A873EEA0B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		6AF574C451AA9E8F8AE46372 /* Build configuration list for PBXProject "LeonBusLive" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D239B1176087B72098B0709 /* Debug */,
+				0F0170118034A6FC30E6E6B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 301F8AB0CE0A834E025067C6 /* Project object */;
+}
